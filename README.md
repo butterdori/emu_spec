@@ -2,122 +2,363 @@
 Power and set configuration of semi-high speed electric multiple units (EMUs)  
 
 # Table
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **JR Shikoku 8600 Series** | 130 | 36.111 | 3 Cars | 2M1T (3-car); 1M1T (2-car); 2M2T (4-car); 3M2T (5-car); 4M3T (7-car); 4M4T (8-car) | 1,760 | 586.6 | 110 | 36.6 | 115 | 38.3 | 2.0 km/h/s (0.56 m/s²) |
-
-*Matches legacy tilting trains for steep grades in Shikoku.*
-
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Korail Class 200k (Nuriro)** | 150 | 41.667 | 4 Cars | 2M2T (4-car) | 2,000 | 500.0 | 145 | 36.25 | 171 | 42.7 | 2.5 km/h/s (0.69 m/s²) |
-
-*High power-to-weight ratio designed for rapid regional departures.*
-
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Siemens Desiro (Class 350)** | 160 | 44.444 | 4 Cars | 2M2T (4-car) | 1,500 | 375.0 | 200 | 50.0 | 170 | 42.5 | 3.6 km/h/s (1.00 m/s²) |
-
-*Commuter-focused traction designed to clear platforms rapidly.*
-
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **JR Kyushu 885 Series** | 130 | 36.111 | 6 Cars | 3M3T (6-car); 3M2T (5-car historical) | 2,280 | 380.0 | 155 | 25.8 | 220 | 36.6 | 2.2 km/h/s (0.61 m/s²) |
-
-*Balanced for mountainous terrain and maintaining speed through curves.*
-
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **JR West 681 Series** | 160 | 44.444 | 6 Cars | 2M4T (6-car); 1M2T (3-car); 3M6T (9-car) | 2,640 | 440.0 | 208 | 34.6 | 240 | 40.0 | 1.8 km/h/s (0.50 m/s²) |
-
-*Heavy steel chassis limits starting acceleration, prioritizing momentum.*
-
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Kintetsu 80000 Series (Hinotori)**| 130 | 36.111 | 6 Cars | 3M3T (6-car); 4M4T (8-car) | 2,880 | 480.0 | 190 | 31.6 | 234 | 39.0 | 2.5 km/h/s (0.70 m/s²) |
-
-*Strong acceleration typical of Kintetsu's private railway express fleet.*
-
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Korail Class 210k (ITX)** | 150 | 41.667 | 6 Cars | 3M3T (6-car) | 3,000 | 500.0 | 185 | 30.8 | 267 | 44.5 | 2.4 km/h/s (0.67 m/s²) |
-
-*Strong initial acceleration to match historical predecessor timings.*
-
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Stadler KISS (RABe 511)** | 160 | 44.444 | 6 Cars | 2M4T (6-car); 2M2T (4-car) | 4,000 | 666.6 | 400 | 66.6 | 297 | 49.5 | 3.9 km/h/s (1.10 m/s²) |
-
-*Extremely high starting torque standard for European double-deck commuter EMUs.*
-
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Odakyu 70000 Series (GSE)** | 120 | 33.333 | 7 Cars | 4M3T (7-car) | 3,040 | 434.2 | 200 | 28.5 | 256 | 36.5 | 2.0 km/h/s (0.56 m/s²) |
-
-*Smooth acceleration profile for luxury sightseeing service.*
-
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Keikyu N1000 Series** | 130 | 36.111 | 8 Cars | 6M2T (8-car); 4M2T (6-car); 4M0T / 2M2T (4-car) | 3,720 | 465.0 | 300 | 37.5 | 255 | 31.8 | 3.5 km/h/s (0.97 m/s²) |
-
-*Exceptionally high acceleration, characteristic of Keikyu's aggressive timetable engineering.*
-
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Keisei AE (Skyliner)** | 160 | 44.444 | 8 Cars | 6M2T (8-car) | 4,200 | 525.0 | 180 | 22.5 | 298 | 37.2 | 2.0 km/h/s (0.55 m/s²) |
-
-*Tuned for sustained 160 km/h top-speed cruising rather than initial pull.*
-
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **JR East E353 Series** | 130 | 36.111 | 9 Cars | 5M4T (9-car); 2M1T (3-car); 7M5T (12-car) | 2,800 | 311.1 | 200 | 22.2 | 333 | 37.0 | 2.0 km/h/s (0.56 m/s²) |
-
-*Modern standard for JR East Limited Express runs on the Chuo Main Line.*
-
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **JR East E657 Series** | 130 | 36.111 | 10 Cars | 6M4T (10-car) | 3,360 | 336.0 | 215 | 21.5 | 385 | 38.5 | 2.0 km/h/s (0.56 m/s²) |
-
-*Standard acceleration for high-capacity commuter/express routes.*
-
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **TRA EMU900 Series** | 130 | 36.111 | 10 Cars | 4M6T (10-car) | 4,000 | 400.0 | 350 | 35.0 | 430 | 43.0 | 2.8 km/h/s (0.80 m/s²) |
-
-*Modern commuter rail acceleration tuned for dense stop-and-go regional service.*
-
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **TRA EMU3000 Series** | 130 | 36.111 | 12 Cars | 6M6T (12-car) | 4,560 | 380.0 | 381 | 31.7 | 545 | 45.4 | 2.5 km/h/s (0.70 m/s²) |
-
-*High starting torque utilizing 24 independent traction motors.*
-
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Shinkansen 100 Series** | 220 | 61.111 | 16 Cars | 12M4T (16-car); 4M2T (6-car); 4M0T (4-car) | 11,040 | 690.0 | 540 | 33.7 | 925 | 57.8 | 1.6 km/h/s (0.44 m/s²) |
-
-*Heavy double-deck cars and older DC motors limited the starting pull.*
-
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Shinkansen 300 Series** | 270 | 75.000 | 16 Cars | 10M6T (16-car) | 12,000 | 750.0 | 430 | 26.8 | 711 | 44.4 | 1.6 km/h/s (0.44 m/s²) |
-
-*First-generation Nozomi; lower acceleration due to early AC traction motor limitations.*
-
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Shinkansen 700 Series** | 285 | 79.166 | 16 Cars | 12M4T (16-car); 6M2T (8-car) | 13,200 | 825.0 | 460 | 28.7 | 708 | 44.2 | 2.0 km/h/s (0.56 m/s²) |
-
-*Improved acceleration over earlier Shinkansen models to navigate the Tokaido line.*
-
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Shinkansen 500 Series** | 300 | 83.333 | 16 Cars | 16M0T (16-car); 8M0T (8-car) | 18,240 | 1,140.0 | 480 | 30.0 | 700 | 43.7 | 1.9 km/h/s (0.53 m/s²) |
-
-*Gearing is entirely dedicated to maintaining 300 km/h rather than starting quickly.*
-
-| Train Model | Top Speed (km/h) | topSpeed (m/s) | Consist | Motor Config | Total Power (kW) | power per car (kW) | Total Tractive Effort (kN) | tractiveEffort per car (kN) | Total Weight (t) | weight per car (t) | Starting Acceleration |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Shinkansen N700 Series** | 300 | 83.333 | 16 Cars | 14M2T (16-car); 8M0T (8-car) | 17,080 | 1,067.5 | 600 | 37.5 | 700 | 43.7 | 2.6 km/h/s (0.72 m/s²) |
-
-*Very high acceleration for a bullet train, achieved via high motorization ratio (14M2T).*
+<table>
+  <thead>
+    <tr>
+      <th>Train Model</th>
+      <th>Top Speed (km/h)</th>
+      <th>topSpeed (m/s)</th>
+      <th>Consist</th>
+      <th>Motor Config</th>
+      <th>Total Power (kW)</th>
+      <th>power per car (kW)</th>
+      <th>Total Tractive Effort (kN)</th>
+      <th>tractiveEffort per car (kN)</th>
+      <th>Total Weight (t)</th>
+      <th>weight per car (t)</th>
+      <th>Starting Acceleration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>JR Shikoku 8600 Series</strong></td>
+      <td>130</td>
+      <td>36.111</td>
+      <td>3 Cars</td>
+      <td>2M1T (3-car); 1M1T (2-car); 2M2T (4-car); 3M2T (5-car); 4M3T (7-car); 4M4T (8-car)</td>
+      <td>1,760</td>
+      <td>586.6</td>
+      <td>110</td>
+      <td>36.6</td>
+      <td>115</td>
+      <td>38.3</td>
+      <td>2.0 km/h/s (0.56 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>Matches legacy tilting trains for steep grades in Shikoku.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Korail Class 200k (Nuriro)</strong></td>
+      <td>150</td>
+      <td>41.667</td>
+      <td>4 Cars</td>
+      <td>2M2T (4-car)</td>
+      <td>2,000</td>
+      <td>500.0</td>
+      <td>145</td>
+      <td>36.25</td>
+      <td>171</td>
+      <td>42.7</td>
+      <td>2.5 km/h/s (0.69 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>High power-to-weight ratio designed for rapid regional departures.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Siemens Desiro (Class 350)</strong></td>
+      <td>160</td>
+      <td>44.444</td>
+      <td>4 Cars</td>
+      <td>2M2T (4-car)</td>
+      <td>1,500</td>
+      <td>375.0</td>
+      <td>200</td>
+      <td>50.0</td>
+      <td>170</td>
+      <td>42.5</td>
+      <td>3.6 km/h/s (1.00 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>Commuter-focused traction designed to clear platforms rapidly.</em></td>
+    </tr>
+    <tr>
+      <td><strong>JR Kyushu 885 Series</strong></td>
+      <td>130</td>
+      <td>36.111</td>
+      <td>6 Cars</td>
+      <td>3M3T (6-car); 3M2T (5-car historical)</td>
+      <td>2,280</td>
+      <td>380.0</td>
+      <td>155</td>
+      <td>25.8</td>
+      <td>220</td>
+      <td>36.6</td>
+      <td>2.2 km/h/s (0.61 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>Balanced for mountainous terrain and maintaining speed through curves.</em></td>
+    </tr>
+    <tr>
+      <td><strong>JR West 681 Series</strong></td>
+      <td>160</td>
+      <td>44.444</td>
+      <td>6 Cars</td>
+      <td>2M4T (6-car); 1M2T (3-car); 3M6T (9-car)</td>
+      <td>2,640</td>
+      <td>440.0</td>
+      <td>208</td>
+      <td>34.6</td>
+      <td>240</td>
+      <td>40.0</td>
+      <td>1.8 km/h/s (0.50 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>Heavy steel chassis limits starting acceleration, prioritizing momentum.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Kintetsu 80000 Series (Hinotori)</strong></td>
+      <td>130</td>
+      <td>36.111</td>
+      <td>6 Cars</td>
+      <td>3M3T (6-car); 4M4T (8-car)</td>
+      <td>2,880</td>
+      <td>480.0</td>
+      <td>190</td>
+      <td>31.6</td>
+      <td>234</td>
+      <td>39.0</td>
+      <td>2.5 km/h/s (0.70 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>Strong acceleration typical of Kintetsu's private railway express fleet.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Korail Class 210k (ITX)</strong></td>
+      <td>150</td>
+      <td>41.667</td>
+      <td>6 Cars</td>
+      <td>3M3T (6-car)</td>
+      <td>3,000</td>
+      <td>500.0</td>
+      <td>185</td>
+      <td>30.8</td>
+      <td>267</td>
+      <td>44.5</td>
+      <td>2.4 km/h/s (0.67 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>Strong initial acceleration to match historical predecessor timings.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Stadler KISS (RABe 511)</strong></td>
+      <td>160</td>
+      <td>44.444</td>
+      <td>6 Cars</td>
+      <td>2M4T (6-car); 2M2T (4-car)</td>
+      <td>4,000</td>
+      <td>666.6</td>
+      <td>400</td>
+      <td>66.6</td>
+      <td>297</td>
+      <td>49.5</td>
+      <td>3.9 km/h/s (1.10 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>Extremely high starting torque standard for European double-deck commuter EMUs.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Odakyu 70000 Series (GSE)</strong></td>
+      <td>120</td>
+      <td>33.333</td>
+      <td>7 Cars</td>
+      <td>4M3T (7-car)</td>
+      <td>3,040</td>
+      <td>434.2</td>
+      <td>200</td>
+      <td>28.5</td>
+      <td>256</td>
+      <td>36.5</td>
+      <td>2.0 km/h/s (0.56 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>Smooth acceleration profile for luxury sightseeing service.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Keikyu N1000 Series</strong></td>
+      <td>130</td>
+      <td>36.111</td>
+      <td>8 Cars</td>
+      <td>6M2T (8-car); 4M2T (6-car); 4M0T / 2M2T (4-car)</td>
+      <td>3,720</td>
+      <td>465.0</td>
+      <td>300</td>
+      <td>37.5</td>
+      <td>255</td>
+      <td>31.8</td>
+      <td>3.5 km/h/s (0.97 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>Exceptionally high acceleration, characteristic of Keikyu's aggressive timetable engineering.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Keisei AE (Skyliner)</strong></td>
+      <td>160</td>
+      <td>44.444</td>
+      <td>8 Cars</td>
+      <td>6M2T (8-car)</td>
+      <td>4,200</td>
+      <td>525.0</td>
+      <td>180</td>
+      <td>22.5</td>
+      <td>298</td>
+      <td>37.2</td>
+      <td>2.0 km/h/s (0.55 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>Tuned for sustained 160 km/h top-speed cruising rather than initial pull.</em></td>
+    </tr>
+    <tr>
+      <td><strong>JR East E353 Series</strong></td>
+      <td>130</td>
+      <td>36.111</td>
+      <td>9 Cars</td>
+      <td>5M4T (9-car); 2M1T (3-car); 7M5T (12-car)</td>
+      <td>2,800</td>
+      <td>311.1</td>
+      <td>200</td>
+      <td>22.2</td>
+      <td>333</td>
+      <td>37.0</td>
+      <td>2.0 km/h/s (0.56 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>Modern standard for JR East Limited Express runs on the Chuo Main Line.</em></td>
+    </tr>
+    <tr>
+      <td><strong>JR East E657 Series</strong></td>
+      <td>130</td>
+      <td>36.111</td>
+      <td>10 Cars</td>
+      <td>6M4T (10-car)</td>
+      <td>3,360</td>
+      <td>336.0</td>
+      <td>215</td>
+      <td>21.5</td>
+      <td>385</td>
+      <td>38.5</td>
+      <td>2.0 km/h/s (0.56 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>Standard acceleration for high-capacity commuter/express routes.</em></td>
+    </tr>
+    <tr>
+      <td><strong>TRA EMU900 Series</strong></td>
+      <td>130</td>
+      <td>36.111</td>
+      <td>10 Cars</td>
+      <td>4M6T (10-car)</td>
+      <td>4,000</td>
+      <td>400.0</td>
+      <td>350</td>
+      <td>35.0</td>
+      <td>430</td>
+      <td>43.0</td>
+      <td>2.8 km/h/s (0.80 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>Modern commuter rail acceleration tuned for dense stop-and-go regional service.</em></td>
+    </tr>
+    <tr>
+      <td><strong>TRA EMU3000 Series</strong></td>
+      <td>130</td>
+      <td>36.111</td>
+      <td>12 Cars</td>
+      <td>6M6T (12-car)</td>
+      <td>4,560</td>
+      <td>380.0</td>
+      <td>381</td>
+      <td>31.7</td>
+      <td>545</td>
+      <td>45.4</td>
+      <td>2.5 km/h/s (0.70 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>High starting torque utilizing 24 independent traction motors.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Shinkansen 100 Series</strong></td>
+      <td>220</td>
+      <td>61.111</td>
+      <td>16 Cars</td>
+      <td>12M4T (16-car); 4M2T (6-car); 4M0T (4-car)</td>
+      <td>11,040</td>
+      <td>690.0</td>
+      <td>540</td>
+      <td>33.7</td>
+      <td>925</td>
+      <td>57.8</td>
+      <td>1.6 km/h/s (0.44 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>Heavy double-deck cars and older DC motors limited the starting pull.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Shinkansen 300 Series</strong></td>
+      <td>270</td>
+      <td>75.000</td>
+      <td>16 Cars</td>
+      <td>10M6T (16-car)</td>
+      <td>12,000</td>
+      <td>750.0</td>
+      <td>430</td>
+      <td>26.8</td>
+      <td>711</td>
+      <td>44.4</td>
+      <td>1.6 km/h/s (0.44 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>First-generation Nozomi; lower acceleration due to early AC traction motor limitations.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Shinkansen 700 Series</strong></td>
+      <td>285</td>
+      <td>79.166</td>
+      <td>16 Cars</td>
+      <td>12M4T (16-car); 6M2T (8-car)</td>
+      <td>13,200</td>
+      <td>825.0</td>
+      <td>460</td>
+      <td>28.7</td>
+      <td>708</td>
+      <td>44.2</td>
+      <td>2.0 km/h/s (0.56 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>Improved acceleration over earlier Shinkansen models to navigate the Tokaido line.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Shinkansen 500 Series</strong></td>
+      <td>300</td>
+      <td>83.333</td>
+      <td>16 Cars</td>
+      <td>16M0T (16-car); 8M0T (8-car)</td>
+      <td>18,240</td>
+      <td>1,140.0</td>
+      <td>480</td>
+      <td>30.0</td>
+      <td>700</td>
+      <td>43.7</td>
+      <td>1.9 km/h/s (0.53 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>Gearing is entirely dedicated to maintaining 300 km/h rather than starting quickly.</em></td>
+    </tr>
+    <tr>
+      <td><strong>Shinkansen N700 Series</strong></td>
+      <td>300</td>
+      <td>83.333</td>
+      <td>16 Cars</td>
+      <td>14M2T (16-car); 8M0T (8-car)</td>
+      <td>17,080</td>
+      <td>1,067.5</td>
+      <td>600</td>
+      <td>37.5</td>
+      <td>700</td>
+      <td>43.7</td>
+      <td>2.6 km/h/s (0.72 m/s²)</td>
+    </tr>
+    <tr>
+      <td colspan="12"><em>Very high acceleration for a bullet train, achieved via high motorization ratio (14M2T).</em></td>
+    </tr>
+  </tbody>
+</table>
